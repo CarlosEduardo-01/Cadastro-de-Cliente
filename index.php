@@ -14,11 +14,14 @@
         <!--abaixo criado o formulario onde vai adicionar um cliente ao bd-->
 
        <form id="formCliente">
-            <input type="text" id="nome" placeholder="Nome do Cliente" require>
             
-            <input type="email" id="email" placeholder="Digite o e-mail" require>
+            <input type="hidden" id="id" name="id">
+
+            <input type="text" id="nome" name="nome" placeholder="Nome do Cliente" required>
+            
+            <input type="email" id="email" name="email" placeholder="Digite o e-mail" required>
            
-            <input type="text" id="telefone" placeholder="Digite o telefone" require>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite o telefone" required>
 
             <button type="submit" class="btn-salvar"> Salvar Cliente</button>
         </form>
@@ -35,7 +38,7 @@
                 </tr>
             </thead>
 
-            <tbody id="tabelaCliente"></tbody>
+            <tbody id="tabelaClientes"></tbody>
         </table>
     </div>
 

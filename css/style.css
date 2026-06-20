@@ -1,6 +1,6 @@
 body{
    font-family: Arial, Helvetica, sans-serif;
-   background: #bee0d5;
+   background: #641717;
    margin: 0;
    padding: 20px;
 }
@@ -39,7 +39,7 @@ button{
 }
 
 .btn-salvar{
-    background: green;
+    background: rgb(0, 2, 0);
     color: white;
 }
 
@@ -48,7 +48,7 @@ button{
 }
 
 .btn.excluir{
-    background: red;
+    background: rgb(221, 14, 14);
     color: white;
 }
 
