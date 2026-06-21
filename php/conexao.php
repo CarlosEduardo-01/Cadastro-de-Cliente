@@ -2,9 +2,9 @@
 
 $host = "localhost";
 $usuario = "root";
-$senha = "Dudu2031cadu@01";
+$senha = "";
 $banco = "cadastro_clientes";
-$porta = 3307;
+$porta = 3306;
 
 $conexao = new mysqli($host, $usuario, $senha, $banco, $porta);
 
